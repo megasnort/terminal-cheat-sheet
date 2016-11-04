@@ -34,3 +34,12 @@ Replace the eight frame with the same frame but another duration
 ```
 convert funny_orignal.gif \( -clone 8 -set delay 120 \) -swap 8 +delete funny_new.gif
 ```
+
+
+## File transfer
+
+Copy one file on a remote (listed in ~/.ssh/config as `my_server`) to local home directory. 
+
+```
+scp my_server:/path/of/file.zip ~
+```

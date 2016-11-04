@@ -43,3 +43,10 @@ Copy one file on a remote (listed in ~/.ssh/config as `my_server`) to local home
 ```
 scp my_server:/path/of/file.zip ~
 ```
+
+## Sass
+Start SASS watcher that generates a compressed .css-file
+
+```
+sass --watch --style compressed style.scss:style.css
+```

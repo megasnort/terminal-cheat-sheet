@@ -1,11 +1,18 @@
 #Terminal Cheat Sheet
 
 ## Disk space
-Show size of folders in a given folder
+Show size of folders, in a given folder and sort descending by size (in MB)
 
 ```
-du -sh ~/*/
+sudo du -sBM /home/* | sort -nr
 ```
+
+Show free space on all drives
+
+```
+df -h
+```
+
 
 ## Find
 

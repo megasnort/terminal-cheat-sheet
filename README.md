@@ -136,6 +136,12 @@ docker-machine start default
 eval $(docker-machine env lets)
 ```
 
+Remove a docker machine
+```
+docker-machine stop default
+docker-machine rm default
+```
+
 ## Archives
 
 Zip a folder, and exclude certain files

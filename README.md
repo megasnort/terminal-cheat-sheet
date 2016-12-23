@@ -125,6 +125,15 @@ Remove all docker crap
 ```
 docker rm $(docker ps -a -q)
 docker rmi $(docker images -q)
+docker network rm $(docker network ls -q)
+docker run --rm -v /var/lib/docker/network/files:/network busybox rm /network/local-kv.db
+```
+
+Start a docker machine
+```
+docker-machine create --driver virtualbox --virtualbox-disk-size "40000" default
+docker-machine start default
+eval $(docker-machine env lets)
 ```
 
 ## Archives

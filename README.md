@@ -119,6 +119,14 @@ dropdb databasename
 dropuser username
 ```
 
+## Docker
+Remove all docker crap
+
+```
+docker rm $(docker ps -a -q)
+docker rmi $(docker images -q)
+```
+
 ## Archives
 
 Zip a folder, and exclude certain files

@@ -1,4 +1,4 @@
-#Terminal Cheat Sheet
+# Terminal Cheat Sheet
 
 ## Disk space
 Show size of folders, in a given folder and sort descending by size (in MB)

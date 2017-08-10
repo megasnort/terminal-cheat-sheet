@@ -156,3 +156,11 @@ Zip a folder, and exclude certain files
 zip -r file.zip folder -x *.git* *.DS_Store *.sass-cache*
 ```
 
+## Git
+
+Change the last commit, message and conten
+
+```
+git commit --amend -m "Also check for empty files" --no-edit
+```
+

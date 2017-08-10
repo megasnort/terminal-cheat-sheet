@@ -142,6 +142,12 @@ docker-machine stop default
 docker-machine rm default
 ```
 
+Go into a docker container
+
+```
+docker exec -it name_of_docker_container bash
+```
+
 ## Archives
 
 Zip a folder, and exclude certain files

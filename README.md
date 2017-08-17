@@ -164,3 +164,8 @@ Change the last commit, message and conten
 git commit --amend -m "Also check for empty files" --no-edit
 ```
 
+Add a tag
+
+```
+git tag -a v0.0.1 -m "The very first version, supporting FileFields"
+```

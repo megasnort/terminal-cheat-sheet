@@ -13,6 +13,18 @@ Show free space on all drives
 df -h
 ```
 
+## PyPi
+Create distribution
+
+```
+python setup.py sdist bdist_wheel --universal
+```
+
+Upload to PyPi
+
+```
+twine upload dist/*
+```
 
 ## Find
 

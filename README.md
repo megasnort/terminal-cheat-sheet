@@ -187,3 +187,17 @@ Add a tag
 ```
 git tag -a v0.0.1 -m "The very first version, supporting FileFields"
 ```
+
+## Letsencrypt
+
+Modify the domains of a certificate
+
+```
+/opt/letsencrypt/letsencrypt-auto --expand -d www.domain.com -d domain.com -d other.area.com
+```
+
+Renew the certificates
+
+```
+/opt/letsencrypt/letsencrypt-auto renew >> /var/log/letsencrypt
+```

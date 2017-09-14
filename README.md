@@ -41,6 +41,12 @@ Find files that were modified a day ago
 find ~ -type f -mtime -1
 ```
 
+## Webcam in OSX is not working
+
+```
+sudo killall VDCAssistant
+```
+
 ## Recursive chmodding
 
 Recursively chmod only directories

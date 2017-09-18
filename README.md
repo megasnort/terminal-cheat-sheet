@@ -137,6 +137,12 @@ dropdb databasename
 dropuser username
 ```
 
+Start postgres on osx
+
+```
+pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
+```
+
 ## Docker
 Remove all docker crap
 

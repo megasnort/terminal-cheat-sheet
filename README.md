@@ -207,3 +207,11 @@ Renew the certificates
 ```
 /opt/letsencrypt/letsencrypt-auto renew >> /var/log/letsencrypt
 ```
+
+## ln
+
+Create symbolic link
+
+```
+ln -s /target/to/which/the/link/should/go target-name 
+```

@@ -215,3 +215,11 @@ Create symbolic link
 ```
 ln -s /target/to/which/the/link/should/go target-name 
 ```
+
+## User management
+
+Add existing user to group
+
+```
+usermod -a -G group_name user_name
+```

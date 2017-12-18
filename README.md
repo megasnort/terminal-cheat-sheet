@@ -223,3 +223,16 @@ Add existing user to group
 ```
 usermod -a -G group_name user_name
 ```
+
+## PHP
+Restart php service on ubuntu
+
+```
+sudo service php5-fpm reload
+```
+
+Restart php service in OSX (brew)
+
+```
+brew services restart php70
+```

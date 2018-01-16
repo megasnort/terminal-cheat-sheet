@@ -236,3 +236,12 @@ Restart php service in OSX (brew)
 ```
 brew services restart php70
 ```
+
+
+## tar
+
+Untar and -zip a file.
+
+```
+tar -zxvf {file.tar.gz}
+```

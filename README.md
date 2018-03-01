@@ -196,6 +196,7 @@ git tag -a v0.0.1 -m "The very first version, supporting FileFields"
 
 ## Letsencrypt
 
+### old way
 Modify the domains of a certificate
 
 ```
@@ -206,6 +207,19 @@ Renew the certificates
 
 ```
 /opt/letsencrypt/letsencrypt-auto renew >> /var/log/letsencrypt
+```
+
+### new way
+Add a domain/certificate
+
+```
+sudo certbot certonly --authenticator standalone --pre-hook "apachectl -k stop" --post-hook "apachectl -k start"
+```
+
+Refresh the certificates
+
+```
+sudo certbot certyonly renew
 ```
 
 ## ln

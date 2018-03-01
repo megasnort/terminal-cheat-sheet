@@ -232,10 +232,22 @@ ln -s /target/to/which/the/link/should/go target-name
 
 ## User management
 
+Add user
+
+```
+sudo adduser user_name
+```
+
 Add existing user to group
 
 ```
 usermod -a -G group_name user_name
+```
+
+invalidate password of user
+
+```
+sudo chage -d 0 camiel
 ```
 
 ## PHP

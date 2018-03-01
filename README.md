@@ -250,6 +250,12 @@ invalidate password of user
 sudo chage -d 0 camiel
 ```
 
+Which groups does a user belong to?
+
+```
+groups user_name
+```
+
 ## PHP
 Restart php service on ubuntu
 

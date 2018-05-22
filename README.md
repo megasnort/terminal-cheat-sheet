@@ -13,6 +13,26 @@ Show free space on all drives
 df -h
 ```
 
+## UFW
+
+Show rules
+
+```
+ufw status numbered
+```
+
+Delete rule
+
+```
+ufw remove 1
+```
+
+Add rule
+
+```
+ufw allow 8000
+```
+
 ## PyPi
 Create distribution
 

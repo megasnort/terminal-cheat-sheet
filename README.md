@@ -233,7 +233,7 @@ Renew the certificates
 Add a domain/certificate
 
 ```
-sudo certbot certonly --authenticator standalone --pre-hook "apachectl -k stop" --post-hook "apachectl -k start"
+sudo certbot certonly --authenticator standalone --pre-hook "service apache2 stop" --post-hook "service apache2 start"
 ```
 
 Refresh the certificates

@@ -276,6 +276,13 @@ Which groups does a user belong to?
 groups user_name
 ```
 
+## Loop
+Execute two commands, several times.
+
+```
+for i in {1..300}; do curl -ILk "https://...." && sleep 20; done
+```
+
 ## PHP
 Restart php service on ubuntu
 

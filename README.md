@@ -139,6 +139,7 @@ sass --watch --style compressed style.scss:style.css
 
 Create a utf 8 database databasename with owner username:
 ```
+createuser --pwprompt --createrole NEWUSER
 createdb -Ousername -Eutf8 databasename
 ```
 

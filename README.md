@@ -305,3 +305,9 @@ Untar and -zip a file.
 ```
 tar -zxvf {file.tar.gz}
 ```
+
+## Convert all m4a files in a directory to mp3
+
+```
+for i in *.avi; do ffmpeg -i "$i" "${i%.*}.mp4"; done
+```

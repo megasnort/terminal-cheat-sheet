@@ -46,6 +46,14 @@ Upload to PyPi
 twine upload dist/*
 ```
 
+## Redis
+
+Clear all queues
+
+```
+redis-cli FLUSHALL
+```
+
 ## Find
 
 Find a file in a given dir with a given name
